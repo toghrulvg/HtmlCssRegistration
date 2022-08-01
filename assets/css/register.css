@@ -1,0 +1,131 @@
+.square{
+  height: 450px;
+  width: 400px;
+  background-color: #e4eafa;
+  position:relative; 
+  left:450px; 
+  top:35px;
+}
+
+.register{
+  font-family: 'Times New Roman', Times, serif;
+  color: #040813;
+  text-align: center;
+  position: relative;
+  top: 5%
+ 
+}
+
+.register:before {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 2%;
+    background: rgb(128, 110, 110);
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+.register:after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 2%;
+    background: gray;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+.account{
+  font-family: 'Times New Roman', Times, serif;
+  color: #989A9E;
+  text-align: center;
+  position: relative;
+  top: 2%
+}
+
+.input1{
+    position: relative;
+    left:30px;
+    width: 150px;
+    height: 8%;
+    top: 2%
+}
+
+.input2{
+    position: relative;
+    left:45px;
+    width: 150px;
+    height: 8%;
+    top: 2%
+}
+
+.input3{
+    position: relative;
+    left:30px;
+    width: 330px;
+    height: 8%;
+    top: 2%
+}
+
+.input4{
+    position: relative;
+    left:30px;
+    width: 330px;
+    height: 8%;
+    top: 2%
+}
+
+.input5{
+    position: relative;
+    left:30px;
+    width: 330px;
+    height: 8%;
+    top: 2%
+}
+
+.input6{
+    
+    position: relative;
+    left: 22px;
+    top: 1%
+   
+}
+
+.terms{
+  font-family: 'Times New Roman', Times, serif;
+  color: #515358;
+  text-align: center;
+  position: absolute;
+  left:44px;
+  top: 71%
+}
+
+.href1 {
+    color: rgb(95, 187, 95);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.registration{
+    position: relative;
+   
+    left:30px;
+    width: 345px;
+    height: 10%;
+}
+
+.sign-in{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 75%
+}
+
+.href2{
+    color: white;
+}
